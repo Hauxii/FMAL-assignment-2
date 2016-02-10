@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1455101578 source:c:\users\hauxi\onedrive\documents\hr vor 2016\forritunarmal\fmal_ass2\compiler.cpp
+
+1455105505 source:c:\users\hauxi\onedrive\documents\hr vor 2016\forritunarmal\fmal_ass2\main.cpp
+	<iostream>
+	"Lexer.h"
+
+1455110050 c:\users\hauxi\onedrive\documents\hr vor 2016\forritunarmal\fmal_ass2\include\lexer.h
+	"Token.h"
+	<stdlib.h>
+	<string>
+
+1455109202 c:\users\hauxi\onedrive\documents\hr vor 2016\forritunarmal\fmal_ass2\include\token.h
+	<iostream>
+
+1455110160 source:c:\users\hauxi\onedrive\documents\hr vor 2016\forritunarmal\fmal_ass2\src\lexer.cpp
+	"Lexer.h"
+
+1455101631 source:c:\users\hauxi\onedrive\documents\hr vor 2016\forritunarmal\fmal_ass2\src\parser.cpp
+	"Parser.h"
+
+1455101631 c:\users\hauxi\onedrive\documents\hr vor 2016\forritunarmal\fmal_ass2\include\parser.h
+
+1455102450 source:c:\users\hauxi\onedrive\documents\hr vor 2016\forritunarmal\fmal_ass2\src\main.cpp
+	<iostream>
+	"Lexer.h"
+
