@@ -7,7 +7,6 @@
 class Parser
 {
     public:
-        Parser();
         Parser(Lexer myLexer);
         virtual ~Parser();
         void parse();
@@ -24,6 +23,8 @@ class Parser
         void expr();
         void term();
         void factor();
+        void error();
+        void printALL();
 };
 
 #endif // PARSER_H
