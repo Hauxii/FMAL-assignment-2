@@ -14,6 +14,7 @@ class Lexer
 
     protected:
         bool containsDigit(string l);
+        bool isInt(string l);
 
     private:
 };

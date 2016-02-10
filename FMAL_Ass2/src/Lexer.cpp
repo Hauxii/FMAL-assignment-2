@@ -22,7 +22,7 @@ Token Lexer::nextToken()
     }
     token.lexeme = lex;
 
-    if(isdigit(lex[0])){
+    if(isInt(lex)){
         token.tCode = INT;
     }
     else if(lex == "(") {
@@ -56,11 +56,10 @@ Token Lexer::nextToken()
         if(containsDigit(lex)){
             token.tCode = ERROR;
         }
-        else{
+        else if (!containsDigit(lex)){
             token.tCode = ID;
         }
     }
-
 
     return token;
 }
@@ -72,4 +71,13 @@ bool Lexer::containsDigit(string l){
         }
     }
     return false;
+}
+
+bool Lexer::isInt(string l){
+    for(unsigned int i = 0; i < l.length(); i++){
+        if(isalpha(l[i])){
+            return false;
+        }
+    }
+    return true;
 }
